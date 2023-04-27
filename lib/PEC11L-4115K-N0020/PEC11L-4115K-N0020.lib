@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model PEC11L-4115K-N0020
+#/15961888/1059347/2.49/5/3/Undefined or Miscellaneous
+DEF PEC11L-4115K-N0020 U 0 30 Y Y 1 F N
+F0 "U" 850 300 50 H V L CNN
+F1 "PEC11L-4115K-N0020" 850 200 50 H V L CNN
+F2 "PEC11L4115KN0020" 850 100 50 H I L CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/PEC11L.pdf" 850 0 50 H I L CNN
+F4 "Rotary Encoder Mechanical 20 Quadrature, 2-Bit Vertical" 850 -100 50 H I L CNN "Description"
+F5 "20" 850 -200 50 H I L CNN "Height"
+F6 "652-PEC11L4115KN0020" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Bourns/PEC11L-4115K-N0020?qs=BJlw7L4Cy7%252BafyP5OKuSaQ%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Bourns" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PEC11L-4115K-N0020" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A1 A1 0 0 200 R 50 50 0 0 P
+X B1 B1 0 -200 200 R 50 50 0 0 P
+X C1 C1 0 -100 200 R 50 50 0 0 P
+X MH1 MH1 1000 0 200 L 50 50 0 0 P
+X MH2 MH2 1000 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

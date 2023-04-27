@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 2SCR513RHZGTL
+#/17241530/1059347/2.49/3/3/Transistor BJT NPN
+DEF 2SCR513RHZGTL Q 0 30 Y Y 1 F N
+F0 "Q" 550 50 50 H V L CNN
+F1 "2SCR513RHZGTL" 550 -50 50 H V L CNN
+F2 "SOT95P280X100-3N" 550 -150 50 H I L CNN
+F3 "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/bipolar/2scr513rhzgtl-e.pdf" 550 -250 50 H I L CNN
+F4 "Bipolar Transistors - BJT 50V  TRANSISTOR" 550 -350 50 H I L CNN "Description"
+F5 "1" 550 -450 50 H I L CNN "Height"
+F6 "" 550 -550 50 H I L CNN "Mouser Part Number"
+F7 "" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F8 "ROHM Semiconductor" 550 -750 50 H I L CNN "Manufacturer_Name"
+F9 "2SCR513RHZGTL" 550 -850 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 400 -300 100 U 50 50 0 0 P
+X ~ 3 400 300 100 D 50 50 0 0 P
+P 2 0 1 20 300 100 300 -100 N
+P 2 0 1 6 300 50 400 150 N
+P 2 0 1 6 300 -50 400 -150 N
+P 2 0 1 6 400 -150 400 -200 N
+P 2 0 1 6 400 150 400 200 N
+P 2 0 1 6 100 0 300 0 N
+C 350 0 158 0 1 10 N
+P 4 0 1 10 330 -100 350 -80 370 -120 330 -100 F
+ENDDRAW
+ENDDEF
+#
+#End Library
